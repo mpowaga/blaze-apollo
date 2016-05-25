@@ -25,7 +25,7 @@ function runQueries(queries) {
         result.set({ ...data, errors, loading: false })
     });
 
-    instance.onDestroyed(() => subscription.unsubscribe());
+    instance.view.onViewDestroyed(() => subscription.unsubscribe());
 
     function refetch(variables) {
       subscription.refetch(variables || evaluate(vars, instance));

@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mpowaga:blaze-apollo',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Blaze integration for the Apollo Client',
   git: 'https://github.com/mpowaga/blaze-apollo',
   documentation: 'README.md'
